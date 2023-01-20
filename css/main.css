@@ -747,7 +747,8 @@ html.t-pattern-8 {
 	}
 	#myPDF {
 		width: 100%;
-		height: 675px;
+		height: 600px;
+		
 	}
 	.grid-col.grid-col-3.alt {
 		float: left;
