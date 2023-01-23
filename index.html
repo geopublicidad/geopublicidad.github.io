@@ -112,7 +112,7 @@
 						data-width="['720px','600px','500px','300px']"
 						data-transform_in="opacity:0;s:1000;e:Power2.easeInOut;"
 						data-transform_out="opacity:0;s:300;s:1000;" data-start="400">
-						<div class="sl-title">Salón Santa Fe</div>
+						<div class="sl-title" id="Autoridades">Salón Santa Fe</div>
 						<p>Hotel Sheraton<br />500 Asistentes</p>
 					</div>
 				</li>
@@ -120,7 +120,7 @@
 		</div>
 	</div>
 	<!-- / revolution slider -->
-	<hr class="divider-color" id="Autoridades">
+	<hr class="divider-color">
 	<!-- content -->
 	<div class="page-content">
 		<main>
@@ -129,27 +129,7 @@
 					<h2 class="center-text">Autoridades Congreso SOLANE 2023</h2>
 					<h2 class="center-text">Presidente</h2>
 					<div class="grid-col-row">
-						<div class="grid-col grid-col-6">
-							<div class="item-instructor bg-color-1">
-								<a href="page-profile.html" class="instructor-avatar">
-									<img src="./img/lucia_marentes.jpeg" data-at2x="./img/lucia_marentes.jpeg" alt>
-								</a>
-								<div class="info-box">
-									<h3>Alba Lucía Marentes</h3>
-									<span class="instructor-profession">Presidente</span>
-									<div class="divider"></div>
-									<p>Neuróloga especialista en Neuromuscular Hospital Universitario San Ignacio,
-										Neurofisióloga Hospital Central de la Policía; maestría en enfermedades
-										neuromusculares en
-										Universidad Federal Fluminense RJ Brasil.
-										Coordinadora del Comité Neurofisiología Nervio y Músculo de la Asociación
-										Colombiana Neurología; Neurofisióloga profesora asociada de la Pontificia
-										Universidad Javeriana , Hospital Universitario San Ignacio; Neurofisióloga del
-										Hospital Central de la Policía Nacional.
-									</p>
-								</div>
-							</div>
-						</div>
+						
 						<div class="grid-col grid-col-6">
 							<div class="item-instructor bg-color-2">
 								<a href="page-profile.html" class="instructor-avatar">
@@ -158,8 +138,7 @@
 								</a>
 								<div class="info-box">
 									<h3>Alberto Dubrovsky (Argentina)</h3>
-									<span class="instructor-profession">Comité Científico y Presidente Congreso
-										SOLANE23</span>
+									<span class="instructor-profession">Presidente Sociedad Latinoamericana de Enfermedades Neuromusculares (SOLANE)</span>
 									<div class="divider"></div>
 									<p>Egresado de la Universidad de Buenos Aires. Ex Fellow del National Institute
 										of Health (Neurology -
@@ -181,6 +160,27 @@
 										miembro de varias Sociedades Científicas Internacionales. Ha sido y es
 										miembro de distintos Comités
 										Editoriales en revistas científicas internacionales de la especialidad.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-col grid-col-6">
+							<div class="item-instructor bg-color-1">
+								<a href="page-profile.html" class="instructor-avatar">
+									<img src="./img/lucia_marentes.jpeg" data-at2x="./img/lucia_marentes.jpeg" alt>
+								</a>
+								<div class="info-box">
+									<h3>Alba Lucía Marentes</h3>
+									<span class="instructor-profession">Presidente Congreso SOLANE23</span>
+									<div class="divider"></div>
+									<p>Neuróloga especialista en Neuromuscular Hospital Universitario San Ignacio,
+										Neurofisióloga Hospital Central de la Policía; maestría en enfermedades
+										neuromusculares en
+										Universidad Federal Fluminense RJ Brasil.
+										Coordinadora del Comité Neurofisiología Nervio y Músculo de la Asociación
+										Colombiana Neurología; Neurofisióloga profesora asociada de la Pontificia
+										Universidad Javeriana , Hospital Universitario San Ignacio; Neurofisióloga del
+										Hospital Central de la Policía Nacional.
 									</p>
 								</div>
 							</div>
@@ -424,7 +424,7 @@
 									<p>Osvaldo Nascimento (Brasil)</p>
 									<p>Guillermo Romero (Ecuador)</p>
 									<p>Steven Vargas (México)</p>
-									<p>Edmar Zanoteli (Brasil)</p>
+									<p id="programa">Edmar Zanoteli (Brasil)</p>
 								</div>
 							</div>
 						</div>
@@ -432,9 +432,9 @@
 			</div>
 		</main>
 	</div>
-	<div id="Inicio" class="page-content padding-none">
+	<div class="page-content padding-none">
 		<!-- section -->
-		<section class="programa" id ="programa">
+		<section class="programa">
 			<div class="grid-row clear-fix">
 				<h2 class="center-text">PROGRAMA IV CONGRESO LATINOAMERICANO DE ENFERMEDADES NEUROMUSCULARES</h2>
 				<object class="myPDF" data="./img/Agenda_SOLANE23.pdf#view=FitH" type="application/pdf"></object>
@@ -444,23 +444,17 @@
 		<hr class="divider-color" />
 		<!-- section -->
 		<section class="fullwidth-background padding-section" id="preinscripcion">
-			<div class="grid-row clear-fix">
-				<div class="grid-col-row">
-					<div class="grid-col grid-col-6">
-						<a href="" class="service-icon"><i class="flaticon-web-programming"></i></a>
-					</div>
-					<div class="grid-col grid-col-6 clear-fix">
-						<h2>Valor de Inscripción:</h2>
-						<p class="preinscripcion">Profesionales: USD 100</p>
-						<p class="preinscripcion">Residentes/Estudiantes: USD 80</p>
-						<h2>Preinscripción</h2>
-						<p>Si está interesado en participar como asistente o patrocinador puede preinscribirse llenando
-							el formulario y recibir información detallada.</p>
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdwy5R1sDYH7xCiv62NHwiIi14Yq5jaGSowU9pbi5vhmTO4bw/viewform"
-							class="cws-button bt-color-3 border-radius alt icon-right float-right">Formulario<i
-								class="fa fa-angle-right"></i></a>
-					</div>
-				</div>
+			<div class="contenedor-centrado">
+				<h2 class="center-text">PREINSCRIPCIÓN</h2>
+				<p class="center-text">Si está interesado en participar como asistente o patrocinador puede
+					preinscribirse
+					llenando el
+					formulario y recibir información detallada.</p>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdwy5R1sDYH7xCiv62NHwiIi14Yq5jaGSowU9pbi5vhmTO4bw/viewform"
+					class="cws-button bt-color-3 border-radius alt">Formulario<i class="fa fa-angle-right"></i></a>
+				<h2>Valor de Inscripción:</h2>
+				<p class="preinscripcion">Profesionales: USD 100</p>
+				<p class="preinscripcion">Residentes/Estudiantes: USD 80</p>
 			</div>
 		</section>
 		<!-- / section -->
@@ -493,7 +487,7 @@
 						<div class="counter-block last">
 							<i class="flaticon-calendar"></i>
 							<div class="counter" data-count="3">0</div>
-							<div class="counter-name">Días</div>
+							<div class="counter-name" id="convocatoria">Días</div>
 						</div>
 					</div>
 				</div>
@@ -502,7 +496,7 @@
 		<!-- / paralax section -->
 		<hr class="divider-color" />
 		<!-- / section -->
-		<div class="container" id="convocatoria">
+		<div class="container">
 			<div class="post-info">
 				<hr class="divider-color margin-none" />
 				<section>
@@ -521,7 +515,7 @@
 						Congreso.</p>
 					<p class="paragraph-color">- Valoramos los trabajos originales, con contenido novedoso, estudios
 						diagnósticos
-						completos y buena iconografía.</p>					
+						completos y buena iconografía.</p>
 					<p>¡Premiaremos los mejores trabajos!</p>
 					<p>Envie sus poster a los siguientes correos:</p>
 					<p class="paragraph-color">- almarentes@husi.org.co</p>

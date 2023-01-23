@@ -995,6 +995,7 @@ html.t-pattern-8 {
 	margin-right: 7px;
 }
 .cws-button.icon-right i {
+
 	margin-left: 7px;
 }
 .cws-button.float-right {
@@ -6671,6 +6672,7 @@ p.form-row.form-row-wide.select-arrow:before {
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 .item-instructor + .item-instructor {
 	margin-top: 40px;
